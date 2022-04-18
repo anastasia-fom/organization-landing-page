@@ -863,6 +863,11 @@ footer .footer__contact img{
         height: 180px;
     }
 
+    .list-product .list-product__select li {
+        font-size: 10px;
+        padding: 23px 1px 20px 20px;
+    }
+
     .list-product .position-item a {
         height: 180px;
     }
@@ -925,11 +930,6 @@ footer .footer__contact img{
 
     .list-product .title {
         margin-top: 50px;
-    }
-
-    .list-product .list-product__select li {
-        font-size: 10px;
-        padding: 23px 1px 20px 20px;
     }
 
     .team .team_contact a {
