@@ -1,0 +1,964 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    background-color: #f6f2f2;
+    padding-top: 30px ;
+}
+
+header nav {
+    background-color: #313030;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 44px 20px 35px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    transition: background-color .3s;
+    background-color:  #ff3f40;
+}
+
+.banner {
+    padding: 100px 0;
+    background-color: #f6f2f2;
+}
+
+.banner .banner__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner .banner__content .col {
+    width: 50%;
+}
+
+.banner h1 {
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+}
+
+.banner .banner__description {
+    margin: 30px 0 60px 0;
+    color: #6c6a6a;
+    max-width: 520px;
+}
+
+.banner .col  iframe{
+    width: 100%;
+    min-height: 350px;
+    max-width: 550px;
+    justify-content: right;
+}
+
+.banner .col.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .col.right {
+    display: flex;
+    justify-content: right;
+}
+
+.btn{
+    padding: 13px 60px;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 2px solid transparent;
+}
+
+.btn.banner__btn{
+    background-color: #ff2d2d;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item {
+    width: 50%;
+}
+
+.services img{
+    width: 30px;
+}
+
+h2{
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #333333;
+    line-height: 50px;
+}
+
+.services p{
+    margin: 40px 0;
+    max-width: 520px;
+}
+
+.services .right-part p{
+    color: #6c6a6a;
+    max-width: 300px;
+}
+
+.services .btn.services__btn{
+    background-color: white;
+    color: #ff2d2d;
+    border-color: #ff2d2d;
+}
+
+.services .left-part{
+    margin-top: -55px;
+}
+
+.services .right-part{
+    margin-top: 110px;
+}
+
+.services .right-part__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.services .right-part__item{
+    width: calc(50% - 20px);
+}
+
+h3{
+    color: #565656;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.services .right-part p{
+    margin-top: 0;
+}
+
+.services .wrapper{
+    margin-bottom: 100px;
+}
+
+hr{
+    max-width: 80%;
+    border: 3px solid rgb(236, 236, 236);
+    border-bottom-width: 0;
+    display: block;
+}
+
+.list-product .title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.list-product p{
+    max-width: 515px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-product h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line{
+    width: 100px;
+    border: none;
+    background-color: #ff2d2d;
+    height: 2px;
+}
+
+.list-product .list-product__select li{
+    color: #4c4c4c;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 44px 20px 35px 20px;
+}
+
+.list-product .list-product__select ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list-product .list-product__select li:hover {
+    transition: background-color .3s;
+    color:  #ff3f40;
+}
+
+.list-product .position-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-product .list-product__item{
+    margin: 10px 0;
+    background-color: #f5f0dd;
+    width: 290px;
+    height: 290px;
+}
+
+.team{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.team p{
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+
+.team .line{
+    margin-left: 0;
+}
+
+.team .wrapper{
+    margin-top: 70px;
+}
+
+h4{
+    font-size: 30px;
+    color: #333333;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.team .team__description p{
+    max-width: 635px;
+}
+
+.team .team_contact{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.team .team_contact a{
+    font-size: 18px;
+    font-style: italic;
+    color: #333333;
+    text-decoration: none;
+}
+
+.team .team_contact li{
+    margin-right: 20px;
+}
+
+.team .team_contact li:last-child{
+    margin-right: 0;
+}
+
+.team .photo{
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+}
+
+.team .photo:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background: #7a786e;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 51px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.team .team__left-part{
+    width: 30%;
+}
+
+.team .team__right-part{
+    width: 70%;
+}
+
+.team .team__left-part img{
+    max-width: 320px;
+    height: 450px;
+}
+
+.team .team__pictures img{
+    width: 200px;
+    height: 210px;
+}
+
+.team .team__pictures:last-child{
+    margin-right: 0;
+}
+
+.team .team__pictures-line{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.team ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+}
+
+.subscribe{
+    padding: 120px 0;
+    background-color: #959494;
+}
+
+.subscribe__title h2, .subscribe__title p{
+    color: white;
+    text-align: center;
+    text-transform: none;
+}
+
+.subscribe .btn.subscribe__btn{
+    padding: 25px 55px;
+    background-color: #ff2d2d;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.subscribe form{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe form input{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    border:none;
+    padding: 40px;
+}
+
+.touch{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+
+.touch form input{
+    width: 340px;
+    height: 60px;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    background-color: #e5e5e5;
+    margin: 0 30px 40px 0;
+}
+
+.touch form textarea{
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    background-color: #e5e5e5;
+    max-width: 720px;
+}
+
+.touch .touch__left-part{
+    width: 60%;
+}
+
+.touch .touch__right-part{
+    width: calc(40% - 100px);
+    background-color: #2d2d2d;
+    margin-left: 100px;
+    padding: 150px 0 150px 75px;
+}
+
+.touch input::placeholder{
+    color: #444444;
+    padding: 50px;
+}
+
+.touch textarea::placeholder{
+    padding: 25px 50px;
+    color: #444444;
+}
+
+.touch .btn.touch__btn{
+    margin-top: 40px;
+    padding: 20px 280px;
+    background-color: #ff2d2d;
+    color: white;
+    text-transform: uppercase;
+}
+
+.touch .touch__title p{
+    margin-bottom: 40px;
+    max-width: 730px;
+}
+
+.touch .touch__title .line{
+    margin-left: 0;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #a9a9a9;
+    text-transform: uppercase;
+}
+
+.touch .touch__right-part p{
+    color: #a9a9a9;
+}
+
+.touch .wrapper{
+    position: relative;
+    margin-top: 80px;
+}
+
+.touch .wrapper:after{
+    content: '';
+    display: inline-block;
+    width: 100vw;
+    position: absolute;
+    height: 100%;
+    background-color: #2d2d2d;
+    left: 100%;
+}
+
+footer{
+    background-color: #2d2d2d;
+    padding: 40px 0 30px;
+}
+
+footer .wrapper{
+    justify-content: space-between;
+}
+
+footer .footer__description p{
+    color: #a9a9a9;
+}
+
+footer .footer__wrapper-contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .footer__contact img{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1280px){
+    .container{
+        max-width: 1024px;
+    }
+
+    .banner h1{
+        font-size: 53px;
+    }
+
+    .banner .col iframe{
+        width: 90%;
+    }
+
+    .services h2{
+        max-width: 430px;
+    }
+
+    .services p{
+        max-width: 430px;
+    }
+
+    .services .right-part p{
+        max-width: 200px;
+    }
+
+    .services .right-part {
+        margin-top: 150px;
+    }
+
+    .list-product .list-product__item {
+        width: 200px;
+        height: 200px;
+        margin: 20px 0;
+
+    }
+    .list-product .position-item a{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .team .team__left-part img{
+        width: 250px;
+        height: 410px;
+    }
+
+    .team p{
+        margin-left: 0;
+    }
+
+    .team .team__pictures img {
+        width: 150px;
+        height: 160px;
+    }
+
+    .subscribe h2{
+        max-width: initial;
+    }
+
+    .subscribe .subscribe__title h2,p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .touch .touch__title p {
+        margin-left: 0;
+        max-width: 565px;
+    }
+
+    .touch form input {
+        width: 265px;
+        height: 50px;
+    }
+
+    .touch form textarea{
+        width: 565px;
+    }
+
+    .touch .btn.touch__btn {
+        padding: 20px 208px;
+    }
+
+    .touch .touch__right-part {
+        padding: 130px 0 130px 75px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        max-width: 767px;
+    }
+    .banner .banner__content {
+        flex-direction: column;
+    }
+
+    .banner .banner__content .col{
+        width: 100%;
+    }
+
+    .banner h1{
+        max-width: initial;
+    }
+
+    .banner .banner__description{
+        max-width: initial;
+    }
+
+    .banner .col.right{
+        justify-content: left;
+        margin-top: 60px;
+    }
+
+    .services{
+        margin-top: 200px;
+    }
+
+    .services .services__btn{
+        margin-bottom: 60px;
+    }
+
+    .services .right-part {
+        margin-top: 100px;
+    }
+
+    .services .left-part{
+        border-bottom: 1px solid rgb(236, 236, 236);
+    }
+
+    .item{
+        width: 100%;
+    }
+
+    .services h2,
+    .services p{
+        max-width: initial;
+    }
+
+    .services .right-part p{
+        max-width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .list-product .list-product__select li {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .list-product .list-product__item {
+        width: 170px;
+        height: 170px;
+    }
+
+    .list-product .position-item a {
+        height: 170px;
+    }
+
+    .team .team__left-part {
+        width: 40%;
+    }
+
+    .team .team__right-part {
+        width: 60%;
+    }
+
+    .team .team__left-part img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .team .team__pictures img {
+        width: 95px;
+        height: 105px;
+    }
+
+    .team .photo:hover::after {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .team p {
+        max-width: initial;
+    }
+
+    .subscribe form input {
+        width: 440px;
+        height: 30px;
+        padding: 38px;
+    }
+
+    .subscribe .btn.subscribe__btn {
+        padding: 22px 55px;
+    }
+
+    .touch .touch__title p {
+        max-width: initial;
+    }
+
+    .touch form input {
+        width: 440px;
+        height: 60px;
+        margin-right: 0;
+    }
+
+    .touch form textarea{
+        width: 440px;
+    }
+
+    .touch .btn.touch__btn {
+        padding: 20px 145px;
+    }
+
+    .touch .touch__right-part{
+        width: calc(40% - 60px);
+        margin-left: 60px;
+        padding: 185px 0 185px 75px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .list-product .list-product__select li {
+        font-size: 11px;
+    }
+
+    .list-product .list-product__item {
+        width: 120px;
+        height: 120px;
+    }
+
+    .list-product .position-item a {
+        height: 120px;
+    }
+
+    .team .team__left-part,
+    .team .team__right-part {
+        width: 100%;
+    }
+
+    .team .team__left-part img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .team .team__right-part{
+        margin-top: 50px;
+    }
+
+    .team .team__pictures img {
+        width: 120px;
+        height: 130px;
+    }
+
+    .team .photo:hover::after {
+        font-size: 12px;
+        padding: 10px 48px;
+    }
+
+    .subscribe form{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe form input {
+        width: 500px;
+        height: 35px;
+        padding: 40px;
+    }
+
+    .subscribe .btn.subscribe__btn {
+        margin-left: 0;
+        margin-top: 40px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .touch .touch__left-part,
+    .touch .touch__right-part{
+        width: 100%;
+    }
+
+    .touch form input{
+        width: 100%;
+    }
+
+    .touch form textarea{
+        width: 100%;
+    }
+
+    .touch .btn.touch__btn {
+        width: 100%;
+        text-align: center;
+    }
+    .touch .touch__left-part{
+        margin-bottom: 50px;
+    }
+
+    .touch .touch__right-part{
+        margin: 0;
+    }
+    .touch .wrapper:after{
+        background-color: #ffffff;
+    }
+
+    footer .wrapper{
+        justify-content: center;
+    }
+
+    footer .footer__contact{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    header nav a{
+        font-size: 12px;
+        text-align: center;
+    }
+    .banner h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .btn.banner__btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .team .photo:hover::after{
+        margin-bottom: 10px;
+    }
+
+    .banner .col iframe {
+        width: 100%;
+        min-height: 350px;
+        max-width: 96%;
+        justify-content: center;
+    }
+
+    .team .team__pictures img{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+    .team .team__pictures-line {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services .btn.services__btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .list-product .position-item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-product .list-product__item {
+        width: 180px;
+        height: 180px;
+    }
+
+    .list-product .position-item a {
+        height: 180px;
+    }
+
+    .subscribe form input{
+        width: 300px;
+    }
+
+    .subscribe .btn.subscribe__btn {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    body{
+        font-size: 12px;
+    }
+
+    header nav a{
+        font-size: 10px;
+        padding: 24px 2px 24px 20px;
+    }
+
+    .btn{
+        font-size: 14px;
+    }
+
+    .banner{
+        padding: 60px 0;
+    }
+
+    h2{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .services{
+        margin-top: 150px;
+    }
+
+    .services .wrapper {
+        margin-bottom: 50px;
+    }
+
+    .services .right-part__wrapper {
+        flex-direction: column;
+    }
+
+    .services .right-part__item {
+        width: 100%;
+    }
+
+    .services .right-part {
+        margin-top: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .list-product .title {
+        margin-top: 50px;
+    }
+
+    .list-product .list-product__select li {
+        font-size: 10px;
+        padding: 23px 1px 20px 20px;
+    }
+
+    .team .team_contact a {
+        font-size: 14px;
+    }
+
+    .team .photo:hover::after {
+        font-size: 12px;
+        padding: 7px 44px;
+    }
+
+    .team .team__pictures img {
+        margin-bottom: 15px;
+    }
+
+    .subscribe form input {
+        width: 100%;
+        height: 25px;
+        padding: 30px;
+    }
+
+    .subscribe .btn.subscribe__btn {
+        margin-top: 30px;
+        width: 70%;
+        padding: 12px 55px;
+    }
+
+    .touch .btn.touch__btn {
+        padding: 20px 50px;
+    }
+
+}
