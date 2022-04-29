@@ -16,6 +16,9 @@
     --font-size-xl: 18px;
     --font-size-xxl: 22px;
     --font-family-main: 'Open Sans';
+    --text-weight-sb: 600;
+    --text-weight-b: 700;
+    --text-weight-eb: 800;
     --content-width: 1280px;
     --content-width-sm: 320px;
     --content-width-md: 576px;
@@ -57,7 +60,7 @@ header nav a {
     padding: 44px 20px 35px;
     color: var(--light-color);
     font-size: 15px;
-    font-weight: bold;
+    font-weight: var(--text-weight-b);
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -84,7 +87,7 @@ header nav a:hover {
 
 .banner h1 {
     font-size: 60px;
-    font-weight: 800;
+    font-weight: var(--text-weight-eb);
     letter-spacing: 5px;
     line-height: 75px;
     text-transform: uppercase;
@@ -119,7 +122,7 @@ header nav a:hover {
     border: 2px solid transparent;
     border-radius: 5px;
     font-size: var(--font-size-xl);
-    font-weight: 700;
+    font-weight: var(--text-weight-b);
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: capitalize;
@@ -148,7 +151,7 @@ h2{
     margin-bottom: 20px;
     color: var(--dark-text-color);
     font-size: 42px;
-    font-weight: 700;
+    font-weight: var(--text-weight-b);
     line-height: 50px;
     text-transform: uppercase;
 }
@@ -193,7 +196,7 @@ h3{
     margin-bottom: 10px;
     color: #565656;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: var(--text-weight-sb);
 }
 
 .services .right-part p{
@@ -240,7 +243,7 @@ hr{
     padding: 44px 20px 35px;
     color: #4c4c4c;
     font-size: var(--font-size-xxl);
-    font-weight: 600;
+    font-weight: var(--text-weight-sb);
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -293,7 +296,7 @@ h4{
     margin-bottom: 30px;
     color: var(--dark-text-color);
     font-size: 30px;
-    font-weight: 600;
+    font-weight: var(--text-weight-sb);
     text-transform: uppercase;
 }
 
@@ -477,7 +480,7 @@ h4{
 h5{
     color: var(--text-color);
     font-size: var(--font-size-xl);
-    font-weight: 700;
+    font-weight: var(--text-weight-b);
     text-transform: uppercase;
 }
 
